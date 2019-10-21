@@ -27,47 +27,18 @@ import { HomeState } from './home/home.reducer';
     <nav>
       <a [routerLink]=" ['./'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Index
-      </a>
-      <a [routerLink]=" ['./home'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Home
-      </a>
-      <a [routerLink]=" ['./detail'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Detail
-      </a>
-      <a [routerLink]=" ['./barrel'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Barrel
-      </a>
-      <a [routerLink]=" ['./about'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        About
+        RETO 1
       </a>
     </nav>
 
     <main>
       <router-outlet></router-outlet>
     </main>
-
-    <pre class="app-state">this.state$ = {{ state$ | async | json }}</pre>
-
-    <footer>
-      <span>
-        Angular Electron Dream Starter by <a (click)="openURL(url)" href="#">@ColinSkow</a>
-      </span>
-      <div>
-        <a [href]="url">
-          <img [src]="angularclassLogo" width="25%">
-        </a>
-      </div>
-    </footer>
   `
 })
 export class AppComponent implements OnInit {
   public angularclassLogo = 'assets/img/angular-electron.svg';
-  public name = 'Angular Electron Dream Starter';
+  public name = 'Training Camp';
   public url = 'https://github.com/colinskow/angular-electron-dream-starter';
   public state$: Observable<HomeState>;
 
