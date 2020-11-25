@@ -3193,8 +3193,8 @@ he@1.1.1, he@1.1.x:
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
 highlight.js@^9.0.0, highlight.js@^9.3.0:
-  version "9.12.0"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -3846,6 +3846,10 @@ karma-sourcemap-loader@^0.3.7:
   resolved "https://registry.yarnpkg.com/karma-sourcemap-loader/-/karma-sourcemap-loader-0.3.7.tgz#91322c77f8f13d46fed062b042e1009d4c4505d8"
   dependencies:
     graceful-fs "^4.1.2"
+
+karma-webpack-grep@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/karma-webpack-grep/-/karma-webpack-grep-1.0.1.tgz#c8e6eb321b058e10cb600b4bf68be369a2458c86"
 
 karma-webpack@~2.0.3:
   version "2.0.4"
