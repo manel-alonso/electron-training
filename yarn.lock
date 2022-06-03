@@ -52,11 +52,11 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@~4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.4.3.tgz#e71d2b07beaacbab48ab7f51d4e2286ea5d70e15"
+"@angular/core@~11.0.5":
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.0.5.tgz#b8c448c3cd4f6dae7327cc1ba4ee2aa29c8dbc26"
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@angular/forms@~4.4.3":
   version "4.4.3"
@@ -3847,6 +3847,10 @@ karma-sourcemap-loader@^0.3.7:
   dependencies:
     graceful-fs "^4.1.2"
 
+karma-webpack-grep@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/karma-webpack-grep/-/karma-webpack-grep-1.0.1.tgz#c8e6eb321b058e10cb600b4bf68be369a2458c86"
+
 karma-webpack@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/karma-webpack/-/karma-webpack-2.0.4.tgz#3e2d4f48ba94a878e1c66bb8e1ae6128987a175b"
@@ -6793,6 +6797,10 @@ tsickle@^0.21.0:
 tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
+
+tslib@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
 
 tslint-loader@^3.5.3:
   version "3.5.3"
